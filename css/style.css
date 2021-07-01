@@ -50,9 +50,14 @@ body {
 
 .slide {
   padding: 90px 0 110px 0;
+  min-height: 570px;
 }
 .slide-1 {
   background: #B4D1E0 url("../img/slide-image-1.png") no-repeat top right 33%;
+  background-size: contain;
+}
+.slide-2 {
+  background: #5ed177 url("../img/slide-image-1.png") no-repeat top right 33%;
   background-size: contain;
 }
 .slide__title {
@@ -80,6 +85,7 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  z-index: 9;
 }
 .slide-button {
   background: transparent;

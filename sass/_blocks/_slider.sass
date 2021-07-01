@@ -3,8 +3,12 @@
 	margin-bottom: 50px
 .slide
 	padding: 90px 0 110px 0
+	min-height: 570px
 	&-1
 		background: #B4D1E0 url('../img/slide-image-1.png') no-repeat top right 33%
+		background-size: contain
+	&-2
+		background: #5ed177 url('../img/slide-image-1.png') no-repeat top right 33%
 		background-size: contain
 	&__title
 		font-family: Roboto Slab, sans-serif
@@ -28,6 +32,7 @@
 		width: 100%
 		top: 50%
 		transform: translateY(-50%)
+		z-index: 9
 	&-button
 		background: transparent
 .label

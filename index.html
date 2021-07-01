@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Willberries</title>
   </head>
@@ -69,40 +70,65 @@
       </div>
       <!-- /.container -->
     </header>
-    <section class="slider">
-      <div class="slide slide-1">
-        <div class="container">
-          <div class="row">
-            <div class="col-4 offset-lg-1">
-              <span class="label">Bestseller</span>
-              <h2 class="slide__title">Sweater Choker Neck</h2>
-              <p class="slide__description">
-                Women’s pearl basic knit sweater with a round neck. Available in
-                several colours. Free shipping to stores.
-              </p>
-              <button class="btn">
-                <span class="btn__price">$319</span>
-                <span class="btn__text">Shop now</span>
-              </button>
+    <section class="slider swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slide slide-1 swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-4 offset-lg-1">
+                <span class="label">Bestseller</span>
+                <h2 class="slide__title">Sweater Choker Neck</h2>
+                <p class="slide__description">
+                  Women’s pearl basic knit sweater with a round neck. Available
+                  in several colours. Free shipping to stores.
+                </p>
+                <button class="btn">
+                  <span class="btn__price">$319</span>
+                  <span class="btn__text">Shop now</span>
+                </button>
+              </div>
+              <!-- /.col-4 offset-lg-1 -->
             </div>
-            <!-- /.col-4 offset-lg-1 -->
+            <!-- /.row -->
           </div>
-          <!-- /.row -->
+          <!-- /.container -->
         </div>
-        <!-- /.container -->
+        <!-- /.slide-1 -->
+        <div class="slide slide-2 swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-4 offset-lg-1">
+                <span class="label">New</span>
+                <h2 class="slide__title">Text T-Shirt</h2>
+                <p class="slide__description">
+                  Women’s pearl basic knit sweater with a round neck. Available
+                  in several colours. Free shipping to stores.
+                </p>
+                <button class="btn">
+                  <span class="btn__price">$250</span>
+                  <span class="btn__text">Shop now</span>
+                </button>
+              </div>
+              <!-- /.col-4 offset-lg-1 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.slide-2 -->
       </div>
-      <!-- /.slide-1 -->
+      <!-- /.swiper-wrapper -->
       <div class="slide-nav">
         <div class="container">
           <div class="row d-flex justify-content-between">
             <div class="col-1">
-              <button class="slide-button">
+              <button class="slide-button slider-button-prev">
                 <img src="img/arrow-prev.svg" alt="icon: prev" />
               </button>
             </div>
             <!-- /.col-1 -->
             <div class="col-1">
-              <button class="slide-button">
+              <button class="slide-button slider-button-next">
                 <img src="img/arrow-next.svg" alt="icon: next" />
               </button>
             </div>
@@ -351,7 +377,7 @@
             <span class="footer-copyright">© 2019 Universal UI Kit</span>
           </div>
           <!-- /.col-2 -->
-          <hr class="footer-line" color="white"/>
+          <hr class="footer-line" color="white" />
         </div>
         <!-- /.row -->
         <div class="row d-flex justify-content-between">
@@ -391,5 +417,7 @@
       <!-- /.container -->
     </footer>
     <!-- /.footer -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
