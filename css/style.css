@@ -112,6 +112,29 @@ body {
   line-height: 20px;
   color: #fff;
 }
+@media screen and (max-width: 1200px) {
+  .slide-1 {
+    background-size: cover;
+  }
+  .slide-2 {
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 992px) {
+  .slide-nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .slide__title {
+    font-size: 34px;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+  .slide__description {
+    margin-bottom: 30px;
+  }
+}
 .cards {
   margin-bottom: 60px;
 }
@@ -134,13 +157,13 @@ body {
   border-radius: 10px;
 }
 .card-3 {
-  padding-top: 35px;
+  padding-top: 30px;
   background: #CCD5E6 url("../img/card-image-3.png") no-repeat top right 15%;
   background-size: contain;
   border-radius: 10px;
 }
 .card-4 {
-  padding-top: 35px;
+  padding-top: 30px;
   padding-left: 25px;
   background: #FF4F52 url("../img/card-image-4.png") no-repeat top right;
   background-size: contain;
@@ -199,6 +222,29 @@ body {
   margin-bottom: 15px;
 }
 
+@media screen and (max-width: 1200px) {
+  .card-3 {
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 992px) {
+  .card-3 {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card {
+    background-position: left top;
+  }
+  .card-4 {
+    background-position: right top;
+  }
+
+  .card {
+    min-height: 300px;
+    padding: 30px;
+  }
+}
 .goods {
   margin-bottom: 70px;
 }
@@ -261,11 +307,6 @@ body {
 .footer {
   padding: 45px 0 40px 0;
   background: #8F79D4;
-}
-.footer-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 .footer-menu__item {
   margin-right: 40px;

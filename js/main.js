@@ -1,6 +1,10 @@
 const swiper = new Swiper('.swiper-container', {
   loop: true,
-	speed: 600,
+  speed: 800,
+  autoplay: {
+    delay: 6000,
+  },
+	effect: 'coverflow',
 
   // Navigation arrows
   navigation: {
